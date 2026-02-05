@@ -13,7 +13,7 @@ export default function WebLayout({ children }: { children: ReactNode }) {
 
     return (
         <div className="flex flex-col min-h-screen bg-[#f5f5f5]">
-            <WebHeader logo={logoUrl} pages={pages} />
+            <WebHeader />
             <main className="flex-grow">
                 {children}
             </main>
